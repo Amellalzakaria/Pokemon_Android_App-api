@@ -1,5 +1,5 @@
 # Pokédex App
-It is an application that allows us to consume information about all the PoKemons from an API to display a list of Pokémon with their images, names, types, weaknesses and size and weight information.
+The Pokédex App is a useful tool for Pokémon enthusiasts who want to quickly access information about their favorite Pokémon. The app utilizes an API provided by the PokeAPI to display a list of Pokémon with their corresponding images, names, types, weaknesses, size, and weight information.
 
 ## The URL of the API that displays the list of PoKemons as images.
 [API](https://pokeapi.co/api/v2/pokemon/) 
