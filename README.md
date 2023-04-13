@@ -9,11 +9,12 @@ The Pokédex App is a useful tool for Pokémon enthusiasts who want to quickly a
 The HttpURLConnection method is employed to fetch data from a remote URL that contains Pokemon-related information using the GET method.
 The JSON content of the webpage is obtained, and subsequently transformed into a JSONObject using an InputStreamReader. 
 
-After retrieving the data, it is stored in an ArrayList of Pokemon objects. This ArrayList is then utilized to create a custom adapter, called "MyAdapter," which is responsible for populating the GridView with the Pokemon data.
-When the user clicks on an item in the GridView, the app initiates a detail activity (detailActivity), which displays more detailed information about the selected Pokemon.
+To retrieve the data from the PokeAPI, the app employs the HttpURLConnection method to fetch the data from the API's URL using the GET method. The JSON content of the webpage is obtained, and then converted into a JSONObject using an InputStreamReader. The data is then stored in an ArrayList of Pokemon objects, which is utilized to populate a GridView using a custom adapter called "MyAdapter."
+
+When the user selects a specific Pokémon from the GridView, the app initiates a detail activity (detailActivity) that displays more detailed information about the selected Pokémon. This detail activity retrieves data from the API based on the Pokémon's ID or name, which is included in the URL of the API.
 
 ## The API URL displays the details of a specific Pokemon based on its ID or name.
-[API/{id ou nom}](https://pokeapi.co/api/v2/pokemon/)
+[API/{id or name}](https://pokeapi.co/api/v2/pokemon/)
 
 <img src="https://github.com/Amellalzakaria/Pokemon_Android_App-api/blob/master/pokes2.jpeg" width=200>
 
