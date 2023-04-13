@@ -16,3 +16,5 @@ When the user clicks on an item in the GridView, the app initiates a detail acti
 [API/{id ou nom}](https://pokeapi.co/api/v2/pokemon/)
 
 <img src="https://github.com/Amellalzakaria/Pokemon_Android_App-api/blob/master/pokes2.jpeg" width=200>
+
+Overall, the Pokédex App is a valuable resource for Pokémon enthusiasts who want to quickly access information about their favorite Pokémon. The app's use of the PokeAPI ensures that the data is up-to-date and accurate, making it a reliable source of information.
